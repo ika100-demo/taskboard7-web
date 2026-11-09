@@ -38,6 +38,7 @@ tasks:
     covers: [AC-001.1, AC-001.2, AC-001.3, AC-001.5]
     parallel_safe: false
     depends_on: [t2, t3, t4]
+    done: true
 ---
 
 # Plan — 001 Task page on the root route
