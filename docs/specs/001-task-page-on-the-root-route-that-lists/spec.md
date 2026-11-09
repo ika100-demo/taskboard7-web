@@ -1,7 +1,7 @@
 ---
 spec_id: 001-task-page-on-the-root-route-that-lists
 title: Task page on the root route that lists tasks and adds a task through the Task API
-status: approved
+status: building
 priority: P1
 shape: web-nextjs
 parent: ika100-demo/taskboard7-gitops:001-persistent-tasks-in-postgres-with-web-ui
@@ -120,3 +120,4 @@ Task API (contract below); no live API needed.
 
 - 2026-11-09 created from the system plan, with its criteria (spec 147)
 - 2026-11-09 approved
+- 2026-11-09 building
