@@ -10,6 +10,7 @@ tasks:
     covers: [AC-001.4]
     parallel_safe: true
     depends_on: []
+    done: true
   - id: t2
     title: Task API client (config, timeout, shape checks, structured failure log)
     files: [app/_lib/config.ts, app/_lib/log.ts, app/_lib/task-api.ts, docs/env-vars.md]
