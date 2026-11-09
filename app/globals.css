@@ -418,6 +418,70 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
+/* ---------- task board ---------- */
+
+.task-board {
+  display: grid;
+  gap: var(--s-6);
+}
+
+.task-list {
+  display: grid;
+  gap: var(--s-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.task-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--s-2);
+  padding: var(--s-3) var(--s-4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+}
+
+.task-due,
+.task-empty {
+  color: var(--muted);
+}
+
+.task-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--s-4);
+}
+
+.form-field {
+  display: grid;
+  gap: var(--s-1);
+}
+
+.form-field input {
+  min-height: 2.75rem;
+  padding: var(--s-2) var(--s-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+}
+
+.form-error {
+  color: #b91c1c;
+  font-size: 0.9rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .form-error {
+    color: #f87171;
+  }
+}
+
 /* ---------- footer ---------- */
 
 .site-footer {
