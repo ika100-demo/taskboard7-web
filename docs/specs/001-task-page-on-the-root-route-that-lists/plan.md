@@ -17,6 +17,7 @@ tasks:
     covers: [AC-001.1, AC-001.3, AC-001.5, AC-001.6]
     parallel_safe: true
     depends_on: [t1]
+    done: true
   - id: t3
     title: TaskBoard client component (list, empty state, form, messages)
     files: [app/_components/task-board.tsx, app/globals.css]
